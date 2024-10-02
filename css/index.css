@@ -1,0 +1,25 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: antiquewhite;
+    color: black;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh; 
+    margin: 10%; 
+    border: 10px solid red;          
+}
+img {
+    width: 50%;
+    height: auto;
+}    
