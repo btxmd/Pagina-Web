@@ -176,29 +176,14 @@
     border-radius: 10px;
   }
   footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        .social-icons {
-            list-style: none;
-            padding: 0;
-        }
-        .social-icons li {
-            display: inline;
-            margin: 0 10px;
-        }
-        .social-icons a {
-            color: white;
-            text-decoration: none;
-            font-size: 24px;  
+    background-image: url('ruta-de-la-imagen.jpg'); /* Ruta a tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el elemento */
+    background-position: center; /* Centra la imagen */
+    height: 300px; /* Altura del encabezado */
+    color: white; /* Color del texto */
+    display: flex; /* Para centrar el contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
   }
   
   .social-icons img {
