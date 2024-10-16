@@ -176,6 +176,24 @@
     text-align: center;
     padding: 20px;
     position: relative;
+    
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .social-icons {
+            list-style: none;
+            padding: 0;
+        }
+        .social-icons li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;  
   }
   
   .social-icons img {
